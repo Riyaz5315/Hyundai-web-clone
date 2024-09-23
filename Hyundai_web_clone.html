@@ -1,0 +1,537 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="images/hyundai_web_icon.PNG">
+
+  <!-- Bootstrap CSS and JS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/hyundai_india.css">
+
+  <!-- Custom JS -->
+  <script src="js/hyundai_india.js" defer></script>
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/phosphor-icons"></script>
+
+  <!-- Remix Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+  <!-- Title -->
+  <title>Hyundai India</title>
+</head>
+
+<body>
+  <style>
+    .btn-primary.color-1 {
+      background-color: #012341;
+      box-shadow: 0 4px 15px 0 rgba(100, 300, 250, 2.75);
+    }
+  </style>
+
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class=""><img src="images/hyundai (4).png" /></a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><BR>
+            <a href="#" class="nav__link">Find a car</a>
+          </li>
+          <li class="nav__item"><BR>
+            <a href="#" class="nav__link">Cl!ck to buy</a>
+          </li>
+          <li class="nav__item"><BR>
+            <a href="#" class="nav__link">Connect to services</a>
+          </li>
+          <li class="nav__item"><BR>
+            <a href="#" class="nav__link">Hyundai story</a>
+          </li>
+          <li class="nav__item"><BR>
+            <a href="#" class="nav__link">Mobility solutions</a>
+          </li>
+          <li class="nav__item"><BR>
+            <a href="#" class="nav__link">Contact Us</a>
+          </li>
+        </ul>
+
+        <!-- Close button -->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__actions">
+        <!-- Search button -->
+        <i class="ri-search-line nav__search" id="search-btn"></i>
+
+        <li><a href="#"><img src='images/marker.PNG'></a></li>
+        <li><a href="#"><img src='images/share.PNG'></a></li>
+
+        <!-- Login button -->
+        <i class="ri-user-line nav__login" id="login-btn"></i>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+
+    </nav>
+  </header><br><br><br><br><br>
+
+  <!--==================== SEARCH ====================-->
+  <div class="search" id="search">
+    <form action="" class="search__form">
+      <i class="ri-search-line search__icon"></i>
+      <input type="search" placeholder="What are you looking for?" class="search__input">
+    </form>
+
+    <i class="ri-close-line search__close" id="search-close"></i>
+  </div>
+
+  <!--==================== LOGIN ====================-->
+  <div class="login" id="login">
+    <form action="" class="login__form">
+      <h2 class="login__title">Log In</h2>
+
+      <div class="login__group">
+        <div>
+          <label for="email" class="login__label">Email</label>
+          <input type="email" placeholder="Write your email" id="email" class="login__input">
+        </div>
+
+        <div>
+          <label for="password" class="login__label">Password</label>
+          <input type="password" placeholder="Enter your password" id="password" class="login__input">
+        </div>
+      </div>
+
+      <div>
+        <p class="login__signup">
+          You do not have an account? <a href="#">Sign up</a>
+        </p>
+
+        <a href="#" class="login__forgot">
+          forgot password
+        </a>
+
+        <button type="submit" class="login__button">Log In</button>
+      </div>
+    </form>
+
+    <i class="ri-close-line login__close" id="login-close"></i>
+  </div>
+
+  <!-- Carousel -->
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class='col-md-12'>
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+              aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/hyn1.jpg" alt="dubai" class="d-block" style="width:100%">
+              <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+                <div class="d-flex h-100 align-items-start justify-content-start" "mt-5" fs-3">
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/hyn2.jpg" alt="New York" class="d-block" style="width:100%">
+              <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+                <div class="d-flex h-100 align-items-start justify-content-start" "mt-5 fs-3">
+                  <div class='text-dark'>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/hyn3.jpg" alt="New York" class="d-block" style="width:100%">
+              <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+                <div class="d-flex h-100 align-items-start justify-content-start" "mt-5 fs-3">
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <img src="images/hyn4.jpg" alt="New York" class="d-block" style="width:100%">
+              <div class="carousel-caption top-0 mt-4 d-none d-md-block">
+                <div class="d-flex h-100 align-items-start justify-content-start" "mt-5 fs-3">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+
+  <nav class='navbar navbar-expand-md' style='background-color: #012341'>
+    <div class='container'>
+      <span class='p-4 mb-2 text-white' class='navbar-text'>
+        <h4>WHAT'S NEW</h4>
+        <h1 class="display-4"><b>See What's happening</b></h1>
+      </span>
+  </nav>
+  </div>
+  <br>
+
+  <div class="container d-flex align-items-center justify-content-center position-relative flex-wrap">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="content"> <a href="#">
+            <div class="content-overlay"></div> <img class="content-image" src="images/hyn5.jpg">
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Geysers Valley Hotel</h3>
+              <p class="text-white"><i class="fa fa-map-marker"></i> Russia</p>
+            </div>
+          </a> </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content"> <a href="#">
+            <div class="content-overlay"></div> <img class="content-image" src="images/hyn6.jpg">
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Khumbu Valley Hotel</h3>
+              <p class="text-white"><i class="fa fa-map-marker"></i> Nepal</p>
+            </div>
+          </a> </div>
+      </div>
+      <div class="col-md-4">
+        <div class="content"> <a href="#">
+            <div class="content-overlay"></div> <img class="content-image" src="images/hyn7.jpg">
+            <div class="content-details fadeIn-bottom">
+              <h3 class="content-title">Waipi&rsquo;o Valley Hotel</h3>
+              <p class="text-white"><i class="fa fa-map-marker"></i> Hawaii</p>
+            </div>
+          </a> </div>
+      </div>
+    </div>
+  </div>
+  <br><br>
+  <script>
+    window.console = window.console || function (t) { };
+  </script>
+
+  <div class='container-fluid'>
+    <div class='row'>
+      <div class="slider">
+        <div class="slide-track">
+          <div class="slide">
+            <img src="images/hyn8.jpg" height="auto" width="auto" />
+          </div>
+          <div class="slide">
+            <img src="images/hyn9.jpg" height="auto" width="auto" />
+          </div>
+          <div class="slide">
+            <img src="images/hyn10.jpg" height="auto" width="auto" />
+          </div>
+        </div>
+      </div>
+    </div><br>
+    <div class='text-center'>
+      <button type="button" class="btn btn-primary color-1">
+        Know More
+      </button>
+    </div>
+  </div>
+  <br><br>
+
+  <nav class='navbar navbar-expand-md' style='background-color: #012341'>
+    <div class='container'>
+      <span class='p-3 mb-1 text-white' class='navbar-text'>
+        <h4>SOCIAL</h4>
+        <h1 class="display-4"><b>Check out what’s trending</b></h1>
+      </span>
+  </nav>
+  </div><br><br>
+
+  <div class="container d-flex align-items-center justify-content-center position-relative flex-wrap">
+    <div class="card d-flex position-relative flex-column">
+      <div class='imgContainer'>
+        <img src='images/hoverimage1.jpg'>
+      </div>
+      <div class="content">
+        <h2>Card One</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo
+          viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac
+          sed dolor.</p>
+      </div>
+    </div>
+    <div class="card d-flex position-relative flex-column">
+      <div class='imgContainer'>
+        <img src='images/hoverimage2.jpg'>
+      </div>
+      <div class="content">
+        <h2>Card Two</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo
+          viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac
+          sed dolor.</p>
+      </div>
+    </div>
+    <div class="card d-flex position-relative flex-column">
+      <div class='imgContainer'>
+        <img src='images/hoverimage3.jpg'>
+      </div>
+      <div class="content">
+        <h2>Card Three</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo
+          viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac
+          sed dolor.</p>
+      </div>
+    </div>
+    <div class="card d-flex position-relative flex-column">
+      <div class='imgContainer'>
+        <img src='images/hoverimage4.jpg'>
+      </div>
+      <div class="content">
+        <h2>Card Three</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo
+          viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac
+          sed dolor.</p>
+      </div>
+    </div>
+    <div class="card d-flex position-relative flex-column">
+      <div class='imgContainer'>
+        <img src='images/hoverimage5.jpg'>
+      </div>
+      <div class="content">
+        <h2>Card Three</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo
+          viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac
+          sed dolor.</p>
+      </div>
+    </div>
+
+    <div class="card d-flex position-relative flex-column">
+      <div class='imgContainer'>
+        <img src='images/hoverimage6.jpg'>
+      </div>
+      <div class="content">
+        <h2>Card Three</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo
+          viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac
+          sed dolor.</p>
+      </div>
+    </div>
+
+    <div class="card d-flex position-relative flex-column">
+      <div class='imgContainer'>
+        <img src='images/hoverimage3.jpg'>
+      </div>
+      <div class="content">
+        <h2>Card Three</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo
+          viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac
+          sed dolor.</p>
+      </div>
+    </div>
+    <div class="card d-flex position-relative flex-column">
+      <div class='imgContainer'>
+        <img src='images/hoverimage3.jpg'>
+      </div>
+      <div class="content">
+        <h2>Card Three</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget velit tristique, sollicitudin leo
+          viverra, suscipit neque. Aliquam ut facilisis urna, in pretium nibh. Morbi in leo in eros commodo volutpat ac
+          sed dolor.</p>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+  <div class='container'>
+    <div class="p-0 mb-0 bg-white text-dark text-center">
+      <h1 class='display-5'><strong>Find a Dealer & Website</strong></h1>
+      <br>
+      <p><b>Locate your nearest dealership and visit website.</b></p>
+    </div>
+  </div>
+
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-3'>
+        <p><b>Select a dealership :</b></p>
+        <input type='radio' value='Showroom' name='dealership'> <b>Showroom</b>
+        <input value='Service' type='radio' name='dealership'> <b>Service</b>
+        <input value='Used Cars' type='radio' name='dealership'> <b>Used Cars</b>
+      </div>
+
+      <div class='col-md-3'><br>
+        <select class='form-select' aria-label="Default select example">
+          <option selected>Select a Model</option>
+          <option value="1">Grand i10</option>
+          <option value="2">Nios</option>
+          <option value="3">i20</option>
+          <option value="4">i20 N line</option>
+          <option value="5">Aura</option>
+          <option value="6">Verna</option>
+          <option value="7">Exter</option>
+          <option value="8">Venue</option>
+          <option value="9">Venue N Line</option>
+          <option value="10">Creta</option>
+          <option value="11">Alcazar</option>
+          <option value="12">Tuscon</option>
+          <option value="13">Kona Electric</option>
+          <option value="14">Ioniq5</option>
+        </select>
+      </div>
+
+      <div class='col-md-3'><br>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1"
+            placeholder="Search by Pincode/Locality/City">
+        </div>
+      </div>
+
+      <div class='col-md-3'><br>
+        <select class='form-select' aria-label="Default select example">
+          <option selected>KMS</option>
+          <option value="1">5KM</option>
+          <option value="2">10KM</option>
+          <option value="3">25KM</option>
+          <option value="4">50KM</option>
+          <option value="5">100M</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  </div>
+  <br>
+
+  <div class="d-grid gap-1 col-1 mx-auto">
+    <button class="btn btn-primary color-1" type="button">Find</button>
+  </div>
+  <br><br>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+          <img src="images/hyundai-1288.PNG" />
+        </div>
+        <div class="footer-col">
+          <h4>Hyundai cars</h4>
+          <ul>
+            <li><a href="#">Grand i10</a></li>
+            <li><a href="#">Nios</a></li>
+            <li><a href="#">i20</a></li>
+            <li><a href="#">Aura</a></li>
+            <li><a href="#">Verna</a></li>
+            <li><a href="#">Exter</a></li>
+            <li><a href="#">Venue</a></li>
+            <li><a href="#">Venue N Line</a></li>
+            <li><a href="#">Creta</a></li>
+            <li><a href="#">Alcazar</a></li>
+            <li><a href="#">Tuscon</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Click To Buy</h4>
+          <ul>
+            <li><a href="#">Request a test Drive</a></li>
+            <li><a href="#">Special Offers</a></li>
+            <li><a href="#">Prices</a></li>
+            <li><a href="#">Find a Dealer</a></li>
+            <li><a href="#">Online Booking</a></li>
+            <li><a href="#">Online Finance</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>hyundai Service</h4>
+          <ul>
+            <li><a href="#">Book a Service</a></li>
+            <li><a href="#">shipping</a></li>
+            <li><a href="#">Warranty Policy</a></li>
+            <li><a href="#">Road Side Assistance</a></li>
+            <li><a href="#">Service Package</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Hyundai</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Meida center</a></li>
+            <li><a href="#">Hyundai Bluelink</a></li>
+            <li><a href="#">Dealer Application</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul>
+            <li><a href="#">Connect with Us</a></li>
+            <li><a href="#">Legal Disclaimer</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Hyundai Suppliers</a></li>
+            <li><a href="#">Hyundai Worldwide</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>follow us</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <footer class="footer">
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark justify-content-center"
+      style="background-color: #012341">
+      <div class="container">
+        <span class='text-white' class='navbar-text'><img src='images/icons8-location-50.PNG' />Find a Dealer</span>
+        <span class='text-white' class='navbar-text'><img src='images/icons8-steering-wheel-50.PNG' /> Request a Test
+          Drive</span>
+        <span class='text-white' class='navbar-text'><img src='images/icons8-price-tag-50.PNG' /> Prices</span>
+        <span class='text-white' class='navbar-text'><img src='images/icons8-add-shopping-cart-50.PNG' /> Click to
+          Buy</span>
+      </div>
+    </nav>
+    </div>
+  </footer>
+
+
+  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
